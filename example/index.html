@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="http://vjs.zencdn.net/5.19.0/video-js.css" rel="stylesheet">
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  <link href="assets/css/videojs-iplayer-theme.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="wrapper" style="width: 600px; margin: auto;">
+    <h1 style="text-align: center;">HTML 5 Video</h1>
+    <div class="media-wrapper" style="width: 600px">
+      <video class="video-js vjs-default-skin" controls="controls" width="600px" height="auto" poster="http://images.all-free-download.com/images/footage_large/scallions_69.jpg"
+        loop="" data-setup='{ "playbackRates": [1, 1.5, 2] }'>
+        <source src="http://images.all-free-download.com/footage_preview/mp4/scallions_69.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+        <source src="http://images.all-free-download.com/footage_preview/webm/scallions_69.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+        <source src="http://images.all-free-download.com/footage_preview/ogv/scallions_69.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+        <img src="http://images.all-free-download.com/images/footage_large/scallions_69.jpg" width="425" height="240" alt="Poster Image"
+          title="No video playback capabilities.">
+      </video>
+    </div>
+
+
+    <div class="media-wrapper" style="width: 600px; margin-top:40px;">
+      <h1 style="text-align: center;">HTML 5 Audio</h1>
+      <audio controls class="video-js vjs-default-skin" data-setup="{}" width="600px" height="auto" poster="https://static1.squarespace.com/static/5356e6dae4b0fc1373f14f7d/t/5865fd443e00be835851be3f/1483079114031/baybielead.jpg">
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="media-wrapper" style="width: 600px; margin-top:40px;">
+      <h1 style="text-align: center;">YouTube</h1>
+      <video id="vid1" class="video-js vjs-default-skin" controls="controls" width="600" height="auto" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}], "youtube": { "customVars": { "wmode": "transparent" } } }'>
+      </video>
+    </div>
+  </div>
+
+  <script src="http://vjs.zencdn.net/5.19.0/video.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.3.2/Youtube.min.js"></script>
+</body>
+
+</html>
