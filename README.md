@@ -1,4 +1,4 @@
-# Video.JS iPlayer Theme
+# Video.JS iPlayer Skin
 A Video.JS skin modeled on iPlayer.
 
 [Video.js](http://www.videojs.com/)
