@@ -1,5 +1,5 @@
 # Video.JS iPlayer Skin
-A Video.JS skin modeled on iPlayer.
+A Video.JS skin modelled on iPlayer.
 
 [Video.js](http://www.videojs.com/)
 
