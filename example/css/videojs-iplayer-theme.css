@@ -1,42 +1,11 @@
 /*!
- * videojs-iplayer
+ * videojs-iplayer-skin
  * A Video.JS skin modelled on iPlayer.
  * 
  * @author Vijay Dubb
  * @version 2.0.0
  * Copyright 2013. MIT licensed.
  */
-
-.media-wrapper .media-youtube {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.media-wrapper .media-youtube iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.media-wrapper .media-audio .vjs-default-skin .vjs-current-time,
-.media-wrapper .media-audio .vjs-default-skin .vjs-remaining-time {
-  right: 50px;
-}
-.media-wrapper .media-audio .vjs-default-skin .vjs-duration {
-  right: 0;
-}
-.media-wrapper .media-audio .vjs-default-skin .vjs-time-divider {
-  right: 45px;
-}
-.media-wrapper .media-audio .vjs-default-skin .vjs-fullscreen-control {
-  display: none;
-}
-.media-wrapper .media-audio .vjs-default-skin .vjs-big-play-button:before {
-  content: "\e006";
-}
 
 .video-js .vjs-loading-spinner,
 .vjs-default-skin .vjs-loading-spinner {

@@ -4,43 +4,6 @@ $bodyColor: #212121;
 $controlBackgroundColour: #000000;
 $transparentizeColour: #000000;
 $volumeHandleBackgoundColour: #FFFFFF;
-.media-wrapper {
-    .media-youtube {
-        position: relative;
-        padding-bottom: 56.25%;
-        /* 16:9 */
-        padding-top: 25px;
-        height: 0;
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    }
-    .media-audio {
-        .vjs-default-skin {
-            .vjs-current-time,
-            .vjs-remaining-time {
-                right: 50px;
-            }
-            .vjs-duration {
-                right: 0;
-            }
-            .vjs-time-divider {
-                right: 45px;
-            }
-            .vjs-fullscreen-control {
-                display: none;
-            }
-            .vjs-big-play-button:before {
-                content: "\e006";
-            }
-        }
-    }
-}
-
 .video-js,
 .vjs-default-skin {
     .vjs-loading-spinner {
