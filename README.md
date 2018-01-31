@@ -23,4 +23,4 @@ npm install videojs-iplayer-skin --save
 ### Works with version 5 of Video.js
 
 ## License
-[MIT](https://github.com/VD39/es6-webpack-boilerplate/blob/master/LICENSE)
+[MIT](https://github.com/VD39/videojs-iplayer-skin/blob/master/LICENSE)
